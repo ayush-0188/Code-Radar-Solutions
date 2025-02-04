@@ -10,16 +10,22 @@ void decimalToBinary(unsigned int num) {
         return;
     }
 
+    int binary[32];
+    int i = 0;
     while (num > 0) {
-        printf("%d", num % 2);
+        binary[i] = num % 2;
         num = num / 2;
+        i++;
+    }
+    for (int j = i - 1; j >= 0; j--) {
+        printf("%d", binary[j]);
     }
 }
 
 int main() {
- int num;
+    unsigned int num;
 
-    scanf("%d", &num);
+    scanf("%u", &num);
 
     decimalToBinary(num);
 
