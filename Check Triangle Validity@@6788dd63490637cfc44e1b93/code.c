@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a,b,c;
-    scanf("%d %d %d",a,b,c);
+    scanf("%d %d %d",%a,%b,%c);
     a=a*a;
     b=b*b;
     c=c*c;
