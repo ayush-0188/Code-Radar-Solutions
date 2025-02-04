@@ -6,12 +6,8 @@ char* welcome() {
 
 
 int main() {
-    unsigned int num;
-    unsigned int flippedNum;
-
-    scanf("%u", &num);
-
-    printf("%u", ~num);
-
+    int a;
+    scanf("%d",&a);
+    printf("%d", ~a);
     return 0;
 }
