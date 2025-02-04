@@ -11,8 +11,7 @@ int main() {
     if(n>31){
         return 1;
     }
-    else{
-        return 0;
-    }
+    unsigned int b=(num >> n) & 1;
+    return 0;
 
 }
