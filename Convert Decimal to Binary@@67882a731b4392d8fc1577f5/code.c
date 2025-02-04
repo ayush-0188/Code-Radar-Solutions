@@ -17,11 +17,11 @@ void decimalToBinary(unsigned int num) {
 }
 
 int main() {
-    unsigned int num;
+ int num;
 
-    scanf("%u", &num);
+    scanf("%d", &num);
 
-    printf("%u", decimalToBinary(num));
+    printf("%d", decimalToBinary(num));
 
 
     return 0;
