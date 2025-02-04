@@ -11,7 +11,7 @@ int main() {
         printf("Digit");
     }
     else if((a>='a' && a<='z') || (a>='A' && a<='Z')){
-        if(a=='a' || a=='i' || a=='e' || a=='o' || a=='u' || a=='O' || a=="I" || a=='U' || a=='A' ){
+        if(a=='a' || a=='i' || a=='e' || a=='o' || a=='u' || a=='O' || a=='I' || a=='U' || a=='A' ){
             printf("Vowel");
         }
         else{
