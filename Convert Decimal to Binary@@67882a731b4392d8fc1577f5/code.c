@@ -21,7 +21,7 @@ int main() {
 
     scanf("%d", &num);
 
-    printf("%d", decimalToBinary(num));
+    decimalToBinary(num);
 
 
     return 0;
