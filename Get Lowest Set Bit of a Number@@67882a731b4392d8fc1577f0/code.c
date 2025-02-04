@@ -7,7 +7,6 @@ char* welcome() {
 int main() {
     unsigned int num;
     int position = 0;
-    printf("Enter a number: ");
     scanf("%u", &num);
     while ((num & 1) == 0 && position < 32) {
         num >>= 1;
