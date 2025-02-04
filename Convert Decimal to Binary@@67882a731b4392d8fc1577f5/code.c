@@ -21,8 +21,8 @@ int main() {
 
     scanf("%u", &num);
 
-    printf("%u", num);
-    decimalToBinary(num);
+    printf("%u", decimalToBinary(num));
+
 
     return 0;
 }
