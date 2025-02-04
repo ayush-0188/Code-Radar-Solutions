@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     unsigned int num;
-    scanf("%d",&num);
+    scanf("%u",&num);
       if (num & 0*80000000) {
         printf("Set");
     } else {
