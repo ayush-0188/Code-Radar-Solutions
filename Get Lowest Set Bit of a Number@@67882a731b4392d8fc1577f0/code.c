@@ -14,9 +14,9 @@ int main() {
     }
 
     if (position == 32) {
-        printf("0");
-    } else {
         printf("1");
+    } else {
+        printf("0");
     }
 
     return 0;
