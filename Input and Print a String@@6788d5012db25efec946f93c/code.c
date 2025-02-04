@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     char str[a];
-    scanf("%c",&a);
-    printf("You entererd: %c", a);
+    scanf("%s",&a);
+    printf("You entererd: %s", a);
     return 0;
 }
