@@ -11,9 +11,7 @@ int main() {
 
     scanf("%u", &num);
 
-    flippedNum = ~num;
-
-    printf("%u", flippedNum);
+    printf("%u", ~num);
 
     return 0;
 }
