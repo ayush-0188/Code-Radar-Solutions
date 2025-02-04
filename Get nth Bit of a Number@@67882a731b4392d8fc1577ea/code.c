@@ -9,7 +9,7 @@ int main() {
     unsigned int n;
     scanf("%u %u",&num,&n);
     if(n>31){
-        return 1;
+        printf("1");
     }
     unsigned int b=(num >> n) & 1;
     return 0;
