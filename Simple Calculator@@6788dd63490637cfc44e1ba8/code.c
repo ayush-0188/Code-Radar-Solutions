@@ -32,4 +32,6 @@ int main() {
             printf("error");
             return 1;
     }
+
     printf("%d",result);
+}
