@@ -8,7 +8,7 @@ int main() {
     char perator;
     int num1, num2, result;
 
-    scanf("%d %d %c", &num1, &num2,$perator);
+    scanf("%d %d %c", &num1, &num2,&perator);
 
     switch (perator) {
         case '+':
