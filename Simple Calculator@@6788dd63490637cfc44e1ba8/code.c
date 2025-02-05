@@ -6,9 +6,9 @@ char* welcome() {
 
 int main() {
     char perator;
-    double num1, num2, result;
+    int num1, num2, result;
 
-    scanf("%lf %lf &=%c", &num1, &num2,$perator);
+    scanf("%d %d %c", &num1, &num2,$perator);
 
     switch (perator) {
         case '+':
