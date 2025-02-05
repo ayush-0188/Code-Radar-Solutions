@@ -4,18 +4,22 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
+int isPrime(int num) {
+    if (num <= 1) return 0; 
+    for (int i = 2; i <= num / 2; i++) {
+        if (num % i == 0) return 0; 
+    }
+    return 1;
+}
 int main() {
-    int a;
-    scanf("%d",&a);
-    if(a<=1){
+    int num;
+    scanf("%d", &num);
+
+    if (isPrime(num)) {
+        printf("Prime");
+    } else {
         printf("Not Prime");
     }
-    for(int i=2,i<=a/2;i++){
-        if(num%i==0){
-            printf("Not Prime");
-        }
-    }
-    else{
-        printf("Prime");
-    }
+
+    return 0;
 }
