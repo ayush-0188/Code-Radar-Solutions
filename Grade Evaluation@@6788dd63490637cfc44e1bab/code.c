@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    chat a;
+    char a;
     scanf("%c",&a);
     switch(a){
         case 'A':
