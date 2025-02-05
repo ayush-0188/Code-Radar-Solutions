@@ -5,12 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    char operator;
+    char perator;
     double num1, num2, result;
 
-    scanf("%lf %lf &=%c", &num1, &num2,$character);
+    scanf("%lf %lf &=%c", &num1, &num2,$perator);
 
-    switch (operator) {
+    switch (perator) {
         case '+':
             result = num1 + num2;
             break;
