@@ -8,7 +8,7 @@ int main() {
     int n,i;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
-        for(char j='A';j<'A'+n;j++){
+        for(char j='A';j<'A'+i;j++){
             printf("%c ",j);
         }
         printf("\n");
