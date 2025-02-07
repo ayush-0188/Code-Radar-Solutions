@@ -17,12 +17,12 @@ int main() {
         printf("1");
     }
     if(a==2){
-        printf("1");
+        printf("1\n");
         printf("0 1");
     }
     if(a==3){
-        printf("1");
-        printf("0 1");
+        printf("1\n");
+        printf("0 1\n");
         printf("1 0 1");
     }
     
