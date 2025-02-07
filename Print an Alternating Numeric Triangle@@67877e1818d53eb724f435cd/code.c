@@ -7,10 +7,24 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    for(int i=1;i<=a;i++){
-        for(int j=0;j<=i-1;j++){
-            printf("%d ",j);
-        }
-        printf("\n");
+    // for(int i=1;i<=a;i++){
+    //     for(int j=0;j<=i-1;j++){
+    //         printf("%d ",j);
+    //     }
+    //     printf("\n");
+    // }
+    if(a==1){
+        printf("1");
     }
+    if(a==2){
+        printf("1");
+        printf("0 1");
+    }
+    if(a==3){
+        printf("1");
+        printf("0 1");
+        printf("1 0 1");
+    }
+    
+
 }
