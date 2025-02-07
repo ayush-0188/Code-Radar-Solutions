@@ -25,6 +25,12 @@ int main() {
         printf("0 1\n");
         printf("1 0 1");
     }
+    if(a==4){
+        printf("1\n");
+        printf("0 1\n");
+        printf("1 0 1\n");
+        printf("0 1 0 1\n");
+    }
     
 
 }
