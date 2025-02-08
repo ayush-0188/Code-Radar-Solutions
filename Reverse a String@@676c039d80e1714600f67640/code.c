@@ -9,7 +9,7 @@ int main() {
     int i,j;
     scanf("%s",&c);
     i=strlen(c);
-    for(j=0;j<=i;j++){
+    for(j=0;j<i/2;j++){
         tmp=c[j];
         c[j]=c[i-j-1];
         c[i-j-1]=tmp;
