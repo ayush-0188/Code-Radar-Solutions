@@ -11,7 +11,7 @@ int main() {
     l=strlen(a);
     for(i=0;i<l;i++){
         if(a[i]='A' || a[i]=='A' || a[i]=='e' || a[i]=='E' || a[i]=='o' || a[i]=='O' || a[i]='U' || a[i]=='u' || a[i]=='I' ||a[i]=='i'){
-        c+=1;
+        c++;
         }
 
     }
