@@ -8,7 +8,7 @@ int main() {
     char  c[100];
     char d[100]="";
     scanf("%s",&c);
-    d=[::-1];
+    d=c[::-1];
     printf("%s",d);
 
 }
