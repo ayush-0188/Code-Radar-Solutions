@@ -16,7 +16,7 @@ int main() {
         c[i-j-1]=tmp;
 
     }
-    if(rev==c){
+    if(strcmp(rev,c)==0){
         printf("Yes");
     }
     else{
