@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     char a[100];
-    int i,c,l;
+    int i,c=0,l;
     scanf("%c",&a);
     l=strlen(a);
     for(i=0;i<l;i++){
