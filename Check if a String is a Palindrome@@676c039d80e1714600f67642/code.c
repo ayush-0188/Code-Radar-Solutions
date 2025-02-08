@@ -5,7 +5,8 @@ char* welcome() {
 }
 
 int main() {
-       char  c[100],tmp,rev[100];
+       char  c[100],tmp;
+       char rev[100];
     int i,j;
     scanf("%s",&c);
     i=strlen(c);
