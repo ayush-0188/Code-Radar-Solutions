@@ -8,7 +8,7 @@ int main() {
        char  c[100],tmp;
        char rev[100];
     int i,j;
-    scanf("%s",c);
+    scanf("%s",&c);
     i=strlen(c);
     strcpy(rev,c);
     for(j=0;j<i/2;j++){
