@@ -12,6 +12,6 @@ int main() {
         printf("1");
     }
     unsigned int b=(num >> n) & 1;
-    printf("%u",b)
+    printf("%u",b);
 
 }
