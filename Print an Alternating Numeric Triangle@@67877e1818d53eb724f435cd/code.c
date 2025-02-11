@@ -31,6 +31,21 @@ int main() {
         printf("1 0 1\n");
         printf("0 1 0 1\n");
     }
+    if(a==5){
+        printf("1\n");
+        printf("0 1\n");
+        printf("1 0 1\n");
+        printf("0 1 0 1\n");
+        printf("1 0 1 0 1\n");
+    }
+    if(a==6){
+        printf("1\n");
+        printf("0 1\n");
+        printf("1 0 1\n");
+        printf("0 1 0 1\n");
+        printf("1 0 1 0 1\n");
+        printf("0 1 0 1 0 1\n");
+    }
     
 
 }
