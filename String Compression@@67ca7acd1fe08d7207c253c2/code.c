@@ -12,4 +12,4 @@ int compressString(int str[],int comp[]){
             count=1;
           }  }
           comp[index]='\0';
-}
+}}
