@@ -9,7 +9,7 @@ int printPrimesInRange(int a,int b){
         
     }
     if(count==0){
-        printf("No prime numbers")
+        printf("No prime numbers");
     }
 }
 int isprime(int num){
