@@ -1,4 +1,4 @@
-int compressString(int str[],int comp[]){
+int compressString(char str[],char comp[]){
     int count=1;
     int index=0;
     for(int i=1;i<5;i++){
