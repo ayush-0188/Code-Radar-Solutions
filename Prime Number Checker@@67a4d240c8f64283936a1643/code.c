@@ -6,9 +6,6 @@ char* welcome() {
 
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
 
 int isPrime(int num) {
     if (num <= 1) return 0; 
