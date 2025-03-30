@@ -15,4 +15,4 @@ int findUnsortedSubarray(int arr[],int n){
         }
     }
     return count;
-}
+}}
