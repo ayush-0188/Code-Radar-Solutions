@@ -1,7 +1,14 @@
 void caesarCipher(char *mess[],int shift,char *enc[]){
-    for(int i=0;mess[i]!='\0';i++){
-        if(mess[i]!=' '){
-        enc[i]=mess[i]+shift;
-        enc[i+1]='\0';}
+   int i;
+    for(i=0;mess[i]!='\0';i++){
+        char ch=mess[i];
+        if(isalpha(ch)){
+            char base=isupper(ch)?'A':'a';
+            enc[i]=(ch-base+shift)%26+base;
+        }
+        else{
+            enc[i]=ch;
+        }
+        enc[i]='\0';
     }
 }
