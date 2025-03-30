@@ -8,6 +8,6 @@ int binarySearch(int arr[],int n,int target){
             count++;
         }
     }
-    if(count>=n) return -1;
+    if(count>n) return -1;
     else return res;
 }
