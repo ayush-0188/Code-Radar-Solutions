@@ -1,7 +1,7 @@
 int compressString(char str[],char comp[]){
     int count=1;
     int index=0;
-    for(int i=1;str[i]!='\0';i++){
+    for(int i=0;str[i]!='\0';i++){
           if(str[i]==str[i+1]){
             count++;}
             else{
