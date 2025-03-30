@@ -1,4 +1,4 @@
-void caesarCipher(char *mess[],int shift,char *enc[]){
+void caesarCipher(char mess[],int shift,char enc[]){
    int i;
     for(i=0;mess[i]!='\0';i++){
         char ch=mess[i];
