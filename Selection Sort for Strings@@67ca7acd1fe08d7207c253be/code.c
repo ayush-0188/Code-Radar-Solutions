@@ -6,7 +6,7 @@ int selectionSort(char arr[][100],int n){
             if(arr[i][j]<arr[i-1][j-1]){
                 char temp=arr[i-1][j-1];
                 arr[i-1][j-1]=arr[i][j];
-                arr[i][j]=*temp;
+                arr[i][j]=temp;
 
                 }
         }
