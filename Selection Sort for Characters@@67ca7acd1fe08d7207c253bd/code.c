@@ -9,7 +9,7 @@ int selectionSort(char arr[],int n){
         }
     }
 }
-int printArray(int arr[],int n){
+int printArray(char arr[],int n){
     for(int i=0;i<n;i++){
         printf("%c ",arr[i]);
     }
