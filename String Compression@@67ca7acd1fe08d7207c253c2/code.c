@@ -9,7 +9,6 @@ int compressString(int str[],int comp[]){
                 if(count>1){
                     comp[index++]=count+'0';
             }
-            count=1;
-          }  }
+          } count=1; }
           comp[index]='\0';
 }}
